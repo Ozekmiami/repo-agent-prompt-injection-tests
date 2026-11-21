@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "profile": 6,
+  "repository": "repo-agent-prompt-injection-tests",
+  "reviewed_on": "2026-11-21",
+  "comparison_axes": [
+    "Resource type",
+    "Primary coverage",
+    "Useful for",
+    "Adaptation needed",
+    "Boundary"
+  ],
+  "entries": [
+    {
+      "name": "AgentDojo",
+      "role_or_focus": "agent security benchmark",
+      "url": "https://github.com/ethz-spylab/agentdojo",
+      "supported_claim": "Prompt-injection and tool-use tasks for LLM agents.",
+      "best_use": "Study task construction and security/utility scoring.",
+      "important_boundary": "Translate its application environments into repository and developer-tool surfaces.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "garak",
+      "role_or_focus": "LLM vulnerability scanner",
+      "url": "https://github.com/NVIDIA/garak",
+      "supported_claim": "Automated probes for multiple LLM failure classes.",
+      "best_use": "Generate a broad baseline scan against model endpoints.",
+      "important_boundary": "Add agent tools, repository fixtures, and action-level oracles.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "PyRIT",
+      "role_or_focus": "AI red-team framework",
+      "url": "https://github.com/Azure/PyRIT",
+      "supported_claim": "Orchestrates prompts, targets, converters, scoring, and attack strategies.",
+      "best_use": "Build repeatable red-team campaigns and retain evidence.",
+      "important_boundary": "Define safe repository-specific targets and containment scoring.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "promptfoo red teaming",
+      "role_or_focus": "evaluation and red-team toolkit",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "supported_claim": "Test matrices, assertions, and adversarial plugins for LLM applications.",
+      "best_use": "Run regression suites in CI across prompts and models.",
+      "important_boundary": "Instrument actual agent actions, file writes, and secret access.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Giskard LLM scan",
+      "role_or_focus": "LLM application testing",
+      "url": "https://github.com/Giskard-AI/giskard",
+      "supported_claim": "Automated testing and scanning for LLM application risks.",
+      "best_use": "Find broad failure hypotheses and organize test cases.",
+      "important_boundary": "Model repository/tool permissions and deterministic canaries.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "Inspect Evals",
+      "role_or_focus": "open evaluation task collection",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_evals",
+      "supported_claim": "Reusable evaluation tasks for the Inspect AI framework.",
+      "best_use": "Reuse task/scorer patterns and logging.",
+      "important_boundary": "Create coding-agent injection fixtures; the catalog is broader than this use case.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "PurpleLlama CyberSecEval",
+      "role_or_focus": "cybersecurity evaluation suite",
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "supported_claim": "Includes cybersecurity-oriented evaluation resources.",
+      "best_use": "Borrow secure evaluation practices and selected risk tests.",
+      "important_boundary": "Map model-output tests to agent actions and repository content.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    },
+    {
+      "name": "OWASP prompt injection guidance",
+      "role_or_focus": "threat and mitigation guidance",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "supported_claim": "Describes direct/indirect injection impacts and mitigation categories.",
+      "best_use": "Check that the fixture set covers remote content, encoding, persistence, and tool use.",
+      "important_boundary": "Turn narrative risks into inert executable cases.",
+      "claim_status": {
+        "supported_claim": "source-backed",
+        "best_use": "author-recommendation",
+        "important_boundary": "author-analysis"
+      }
+    }
+  ],
+  "field_provenance": {
+    "supported_claim": "source-backed at the cited URL, subject to the recorded review date/version",
+    "best_use": "author recommendation; requires local validation",
+    "important_boundary": "author analysis unless the linked source explicitly states it"
+  }
+}

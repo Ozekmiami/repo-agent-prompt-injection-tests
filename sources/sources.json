@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-11-21",
+  "sources": [
+    {
+      "title": "AgentDojo",
+      "url": "https://github.com/ethz-spylab/agentdojo",
+      "type": "upstream_repository",
+      "supports": "Prompt-injection and tool-use tasks for LLM agents.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Prompt-injection and tool-use tasks for LLM agents.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "garak",
+      "url": "https://github.com/NVIDIA/garak",
+      "type": "upstream_repository",
+      "supports": "Automated probes for multiple LLM failure classes.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Automated probes for multiple LLM failure classes.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "PyRIT",
+      "url": "https://github.com/Azure/PyRIT",
+      "type": "upstream_repository",
+      "supports": "Orchestrates prompts, targets, converters, scoring, and attack strategies.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Orchestrates prompts, targets, converters, scoring, and attack strategies.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "promptfoo red teaming",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "type": "upstream_repository",
+      "supports": "Test matrices, assertions, and adversarial plugins for LLM applications.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Test matrices, assertions, and adversarial plugins for LLM applications.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Giskard LLM scan",
+      "url": "https://github.com/Giskard-AI/giskard",
+      "type": "upstream_repository",
+      "supports": "Automated testing and scanning for LLM application risks.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Automated testing and scanning for LLM application risks.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "Inspect Evals",
+      "url": "https://github.com/UKGovernmentBEIS/inspect_evals",
+      "type": "upstream_repository",
+      "supports": "Reusable evaluation tasks for the Inspect AI framework.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Reusable evaluation tasks for the Inspect AI framework.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "PurpleLlama CyberSecEval",
+      "url": "https://github.com/meta-llama/PurpleLlama",
+      "type": "upstream_repository",
+      "supports": "Includes cybersecurity-oriented evaluation resources.",
+      "authority": "upstream project maintainers",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Includes cybersecurity-oriented evaluation resources.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    },
+    {
+      "title": "OWASP prompt injection guidance",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "type": "industry_security_guidance",
+      "supports": "Describes direct/indirect injection impacts and mitigation categories.",
+      "authority": "OWASP GenAI Security Project",
+      "version_or_date": "moving upstream; reviewed 2026-11-21",
+      "claim_scope": "Describes direct/indirect injection impacts and mitigation categories.",
+      "does_not_support": "This source alone does not validate this guide's cross-project recommendation, local result, interoperability, or safety sufficiency."
+    }
+  ]
+}
