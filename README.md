@@ -1,5 +1,10 @@
 # Repository Prompt-Injection Test Fixtures for Coding Agents
 
+
+> **Decision:** Use these inert fixtures to test whether an authorized coding agent obeys task authority over hostile repository text; do not use them against third-party services or as an exploit catalog.
+>
+> **For:** coding-agent maintainers, repository security teams, and sandbox evaluators  ·  **Not for:** offensive testing of systems you do not control or teams without an isolated harness
+
 A coding agent reads more than a user prompt. Repository READMEs, issue text, logs, generated files, test output, and tool results can all carry instructions that conflict with the authorized task. This repository defines **inert fixtures and pass/fail oracles** for that specific boundary.
 
 It is not a catalog of attacks and must not be used against third-party agents or services.
@@ -95,6 +100,14 @@ Accept a new fixture only if it adds a distinct carrier or authority-confusion p
 
 Source ledger: [`sources/sources.json`](sources/sources.json).
 
+## Adjacent guides
+
+- [mcp-server-security-checklist](https://github.com/CoMiles1845114/mcp-server-security-checklist) — Use it when the same agent reaches tools through an MCP server and the release boundary needs review.
+- [agent-execution-control-sandbox](https://github.com/MargaritaOfficial/agent-execution-control-sandbox) — Use it when prompt resistance must be backed by filesystem, network, identity, and lifecycle isolation.
+- [agent-rules-portability-guide](https://github.com/Probstpp1/agent-rules-portability-guide) — Use it when repository instructions must remain scoped and predictable across multiple coding-agent products.
+
 ## License
 
 Original fixtures, manifest, and scoring protocol are available under CC BY 4.0. Linked tools retain their own licenses.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
